@@ -26,10 +26,15 @@ class Student:
     def __init__(self, sid, name):
         self.sid = sid
         self.name = name
+        self.gender = None
 
+class gender:
+    def __init__(self, gender):
+        self.gender=gender
 
 a = School("NKUST")
 a.campus = Campus("YanchaoCampus")
 a.campus.college = College("BusinessIntelligenceSchool")
 a.campus.college.department = Department("IntelligentCommerce")
 a.campus.college.department.student = Student("C109193244", "Huang-I Chan")
+a.campus.college.department.student.gender=gender("male")
