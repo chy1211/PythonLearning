@@ -6,7 +6,7 @@ class Campus:
     def __init__(self,name):
         self.name=name
         self.dps=[]
-class Departmant:
+class Department:
     def __init__(self,name):
         self.name=name
 cpsname=["建工校區","旗津校區","第一校區","楠梓校區","燕巢校區"]
@@ -17,4 +17,4 @@ for i in cpsname:
     nkust.cps.append(Campus(i))
 for i in dpsname:
     print(i)
-    nkust.cps[4].dps.append(Departmant(i))
+    nkust.cps[4].dps.append(Department(i))
