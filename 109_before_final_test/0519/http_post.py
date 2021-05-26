@@ -1,6 +1,6 @@
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("192.168.56.67",80))
+s.connect(("192.168.58.133",80))
 s.sendall(b"POST /~handsome/testpost.php HTTP/1.1\r\n")
 
 content = "username=Testusername"
