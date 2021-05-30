@@ -6,7 +6,7 @@ for j in range(len(a) - 1):
             tmp = a[i]
             a[i] = a[i + 1]
             a[i + 1] = tmp
-A = ("")
+A = ""
 for i in a:
     A += i
 
@@ -17,7 +17,7 @@ for j in range(len(a) - 1):
             tmp = a[i]
             a[i] = a[i + 1]
             a[i + 1] = tmp
-B = ("")
+B = ""
 for i in b:
     B += i
 

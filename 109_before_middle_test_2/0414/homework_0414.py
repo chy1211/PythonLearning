@@ -28,9 +28,11 @@ class Student:
         self.name = name
         self.gender = None
 
+
 class gender:
     def __init__(self, gender):
-        self.gender=gender
+        self.gender = gender
+
 
 a = School("NKUST")
 a.campus = Campus("YanchaoCampus")

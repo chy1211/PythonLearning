@@ -1,7 +1,8 @@
-#fp=open("test2.csv","r") locate
-fp=open("./109_before_middle_test_2/0505/test2.csv","r")
+# fp=open("test2.csv","r") locate
+fp = open("./109_before_middle_test_2/0505/test2.csv", "r")
 
 tmp = fp.readline()
+
 
 class Student:
     def __init__(self):
@@ -10,6 +11,7 @@ class Student:
         self.name = []
         self.git = []
 
+
 theclass = Student()
 
 while True:
@@ -17,7 +19,7 @@ while True:
     if ftmp == "":
         break
     else:
-        tmp = ftmp.replace("\n","").replace(" ","").replace("?","").split(",")
+        tmp = ftmp.replace("\n", "").replace(" ", "").replace("?", "").split(",")
         theclass.cla.append(tmp[0])
         theclass.id.append(tmp[1])
         theclass.name.append(tmp[2])
@@ -27,6 +29,6 @@ while True:
     if theclass.cla[i] == ",":
         break
     else:
-        print(theclass.cla[i],theclass.id[i],theclass.name[i],theclass.git[i])
+        print(theclass.cla[i], theclass.id[i], theclass.name[i], theclass.git[i])
         i += 1
 fp.close()

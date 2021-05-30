@@ -1,4 +1,4 @@
-tmp = (ord("H"))
+tmp = ord("H")
 for i in range(1, 9):
     print(tmp)
     print(chr(tmp))
