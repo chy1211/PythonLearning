@@ -1,6 +1,6 @@
 import requests
 
-for i in range(0,334):
+for i in range(0,335):
     response = requests.get("https://www.google.co.jp/landing/motto/tabplay/{}.jpg".format(i))
     if response.status_code == 200:
         f=open(f'C:/Users/henry/Documents/GitHub/temp/python/googlelanding/{i}.jpg','wb')
