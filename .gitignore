@@ -2,5 +2,5 @@
 *.json
 /Ubike2.0GUI/build
 /Ubike2.0GUI/dist
-.spec
+*.spec
 /.vscode/*.json
