@@ -7,7 +7,7 @@ def selsincsc(date, rn):
         host="xiaoyi1211.ddns.net",
         port=3306,
         user="chy",
-        passwd="Henrychy@1211",
+        passwd="**",
         db="reservoir",
         charset="utf8",
     )
@@ -30,7 +30,7 @@ def showtable():
         host="xiaoyi1211.ddns.net",
         port=3306,
         user="chy",
-        passwd="Henrychy@1211",
+        passwd="**",
         db="reservoir",
         charset="utf8",
     )
@@ -53,7 +53,7 @@ def showrn():
         host="xiaoyi1211.ddns.net",
         port=3306,
         user="chy",
-        passwd="Henrychy@1211",
+        passwd="**",
         db="reservoir",
         charset="utf8",
     )
